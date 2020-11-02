@@ -437,7 +437,7 @@ section .title::after{
 }
 
 .team .carousel .card:hover .box{
-    transform: scale(1.07);
+    transform: scale(1.04);
     
 }
 .team .carousel .card .text{
@@ -723,4 +723,21 @@ footer span a:hover{
         margin-bottom: 62px;
     }
     
+}
+@media(max-width:366px){
+    .team .carousel .card {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        text-align: justify;
+        margin-right: 10px;
+    }
+    .team .carousel .card .text{
+        
+        font-size: 30px;
+        font-weight: 500;
+        margin: 10px 0 7px 0;
+        justify-content: center;
+
+    }
 }
